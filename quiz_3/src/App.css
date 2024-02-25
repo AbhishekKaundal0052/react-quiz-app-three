@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: rgb(71,58,141);
+}
+.heading{
+  color: white;
+  margin-left: 4vw;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40vh;
+  flex-direction: column;
+}
+#playBtn{
+  background-color: rgb(10,179,6);
+  padding: .8vw;
+  width: 15vw;
+  margin-top: 1.5vw;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.quiz-comp{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.Question-Box{
+  background-color: white;
+  padding: 3vw;
+  width: 80vw;
+}
+.text-center{
+  text-align: center;
+}
+.status{
+  margin: 1vw;
+}
+.options-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.7vw;
+  margin: auto;
+  margin-top: 5vw;
+}
+.option{
+  width: 11vw;
+  font-size: 14px;
+  padding: 1vw;
+  border-radius: 20px;
+  width: 100%;
+  color: white;
+  background-color: rgb(30,161,241);
+}
+.option:hover{
+  background-color: rgb(10, 84, 131);
+  cursor: pointer;
+}
+.option:focus{
+  background-color: rgb(10, 84, 131);
+}
+button{
+  margin-top: 3vw;
+  margin-left: 5vw;
+  width: fit-content;
+  height: 3vw;
+  padding: .3vw 2vw;
+  border: none;
+  cursor: pointer;
+}
+#prev-btn{
+  background-color: rgb(62,126,170);
+  color: black;
+}
+#next-btn{
+  background-color: green;
+}
+#quit-btn{
+  background-color: red;
+}
+#finish-btn{
+  background-color: white;
+  color: rgb(87, 87, 87);
+  border: 2px solid rgb(185, 185, 185);
+}
+.btns{
+  display: flex;
+  justify-content: center;
+}
+
+.result{
+  background-color: white;
+  padding: 3vw;
+  width: 50vw;
+}
+
+table{
+  width: 100%;
+  margin-top: 2vw;
+  font-weight: 900;
+}
+.top-heading{
+  margin-bottom: 1vw;
+}
+td{
+  padding-top: 1vw;
+}
+.result-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20vh;
+  padding-top: 5vh;
+  flex-direction: column;
+}
+.title-prime{
+  margin-bottom: 2vw;
+}
+.text-right{
+  text-align: right;
+}
+#result-btn{
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+#back-btn{
+  color: green;
+  border: 2px solid green;
+  cursor: pointer;
+}
+#again-btn{
+  color: rgb(168, 75, 255);
+  border: 2px solid rgb(168, 75, 255);
+  cursor: pointer;
+}
