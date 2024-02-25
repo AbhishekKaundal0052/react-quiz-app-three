@@ -18,7 +18,7 @@ export default function Result() {
                 return "Perfect!!"
         }
     }
-    const percentage = (score / 5) * 100
+    const percentage = (score / 15) * 100
     if (attempted < 0) { attempted = 0 }
     return (
         <div>
@@ -34,7 +34,7 @@ export default function Result() {
                             <tbody>
                                 <tr>
                                     <td>Total number of questions</td>
-                                    <td className='text-right'>5</td>
+                                    <td className='text-right'>15</td>
                                 </tr>
                                 <tr>
                                     <td>Number of attempted questions</td>

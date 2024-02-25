@@ -38,7 +38,7 @@ function QuizBox() {
         <div className="quiz-comp">
             <div className='Question-Box'>
                 <h1 className="text-center status">Question</h1>
-                <h5 className="status">{`${questionNo + 1} of 5`}</h5>
+                <h5 className="status">{`${questionNo + 1} of 15`}</h5>
                 <h3 className="text-center status">{questions[questionNo].question}</h3>
 
                 <div className="options-grid">
